@@ -1,6 +1,6 @@
 from selene import have
 from selene.support.shared import browser
-from qa_guru_8_10 import resources
+from qa_guru_8_12 import resources
 
 
 class RegistrationPage:

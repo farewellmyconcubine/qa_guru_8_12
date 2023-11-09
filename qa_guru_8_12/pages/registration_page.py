@@ -1,9 +1,12 @@
 from selene import have
 from selene.support.shared import browser
+
+import conftest
 from qa_guru_8_12 import resources
 
 
 class RegistrationPage:
+    browser = conftest.browser_setup
 
     def open(self):
         browser.open('/automation-practice-form')
